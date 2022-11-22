@@ -2,3 +2,10 @@
   max-width: 1080px;
   margin: 20px auto;
 }
+
+.title-search{
+  text-align:center; font-size:30px; text-transform:uppercase; color:#222;
+  font-family:"Playfair Display", serif; 
+  font-weight:200;
+  margin-bottom: 15px;
+}

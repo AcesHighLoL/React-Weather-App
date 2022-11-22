@@ -1,8 +1,8 @@
-import {WEA_API_KEY, API_KEY} from config.js
+import {WEA_API_KEY, API_KEY} from '../src/config.js'
 export const geoApiOptions = {
     method: 'GET',
     headers: {
-        'X-RapidAPI-Key': API_KEY,
+        'X-RapidAPI-Key': `${API_KEY}`,
         'X-RapidAPI-Host': 'wft-geo-db.p.rapidapi.com'
     }
 };
